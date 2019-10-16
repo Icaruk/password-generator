@@ -1,6 +1,6 @@
 
 ## How to use 🚀
-Open **index.html** with your browser.
+[Click herek](https://icaruk.github.io/password-generator/)
 
 ## How secure it this generator? 🔑
 The password is generated **only on your computer**.
