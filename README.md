@@ -1,6 +1,6 @@
 
 ## How to use 🚀
-[Click herek](https://icaruk.github.io/password-generator/)
+[Click here](https://icaruk.github.io/password-generator/)
 
 ## How secure it this generator? 🔑
 The password is generated **only on your computer**.
