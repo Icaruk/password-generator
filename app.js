@@ -4,9 +4,13 @@ const ele_abc1 = document.getElementById("abc1");
 const ele_abc2 = document.getElementById("abc2");
 const ele_num = document.getElementById("num");
 const ele_esp = document.getElementById("esp");
+const ele_cus = document.getElementById("cus");
+const ele_inputCus = document.getElementById("input_cus");
+
 const ele_slider = document.getElementById("nChars");
 const ele_sliderTxt = document.getElementById("nCharsTxt");
 const ele_pass = document.getElementById("pass");
+
 
 
 // Funciones
@@ -38,6 +42,7 @@ function gen() {
 	let abc2 = ele_abc2.checked;
 	let num = ele_num.checked;
 	let esp = ele_esp.checked;
+	let cus = ele_cus.checked;
 	let chars = Math.min (ele_sliderTxt.value, 64);
 	
 	
@@ -56,6 +61,10 @@ function gen() {
 	
 	if (esp) {
 		pool += 'º\|@#€¬ª!"·$%&/()=?¿';
+	};
+	
+	if (cus) {
+		pool += (ele_inputCus.value);
 	};
 	
 	
