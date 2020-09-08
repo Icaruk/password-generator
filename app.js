@@ -80,7 +80,7 @@ function gen() {
 	let strPass = "";
 	
 	
-	for (let i = 1; i <= chars; i++) {
+	for (let i = 1; i < chars; i++) {
 		
 		let idx = Math.floor (Math.random() * pool.length);
 		strPass += pool.charAt(idx);
